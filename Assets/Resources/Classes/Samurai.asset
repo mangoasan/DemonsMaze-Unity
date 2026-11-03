@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7875ba2f43a82894a9492a914d2288db, type: 3}
+  m_Name: Samurai
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterData
+  title: "\u0421\u0430\u043C\u0443\u0440\u0430\u0439"
+  idle: {fileID: 21300000, guid: 3b173bdb3cd263c4b8db83a8b6803d68, type: 3}
+  walk:
+  - {fileID: 21300000, guid: 527be525f0294e34e866dacad829df22, type: 3}
+  - {fileID: 21300000, guid: a2baa963509fc3d4ea60dfb05ce7fe22, type: 3}
+  - {fileID: 21300000, guid: 4e60be41534ff6248a21f9533524be34, type: 3}
+  - {fileID: 21300000, guid: a10c0628ad1b00942b12b5066bb53f01, type: 3}
+  - {fileID: 21300000, guid: 55f2295a63a7b2d449e1e166a6fd0dbb, type: 3}
+  - {fileID: 21300000, guid: 58c26dfb8f1dccd4698b48f468724a86, type: 3}
+  - {fileID: 21300000, guid: e8f5ea4a121793f4dae6402b991c2f56, type: 3}
+  - {fileID: 21300000, guid: b037b889351380442ae03ca0f6fd0df4, type: 3}
+  attack:
+  - {fileID: 21300000, guid: a75717ce5ed20604cb4dfd6afbed2b6e, type: 3}
+  - {fileID: 21300000, guid: 4c54103988c6fc441a1e850d91e7a8ea, type: 3}
+  - {fileID: 21300000, guid: 8266b30ae1019ad47aa860b3443387bd, type: 3}
+  - {fileID: 21300000, guid: f4e6b874f5420a1429156005fcaa3962, type: 3}
+  - {fileID: 21300000, guid: 08a47a1966bcce6429fa9467986f6e8a, type: 3}
+  secondAttack: []
+  death: {fileID: 21300000, guid: af015a0870fa7124c8f201ee0f504bbd, type: 3}
+  health: 115
+  speed: 3.6
+  walkFps: 8
+  damage: 30
+  attackTime: 0.58
+  reach: 1.6
+  staminaCost: 20
+  ranged: 0
+  bottle: 0

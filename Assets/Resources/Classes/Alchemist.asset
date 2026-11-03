@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7875ba2f43a82894a9492a914d2288db, type: 3}
+  m_Name: Alchemist
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterData
+  title: "\u0410\u043B\u0445\u0438\u043C\u0438\u043A"
+  idle: {fileID: 21300000, guid: bc75aad03ec12f942b2ac9e3ef2ed65d, type: 3}
+  walk:
+  - {fileID: 21300000, guid: 93f22e70e8d1e7d48bcde014581fc567, type: 3}
+  - {fileID: 21300000, guid: fed054a3ef9d518448650d421fb79e05, type: 3}
+  - {fileID: 21300000, guid: 5cda676db99390545a2b0962e5ec20f8, type: 3}
+  - {fileID: 21300000, guid: 31287f42660c8dd418ea00cfadd9eb75, type: 3}
+  - {fileID: 21300000, guid: 5c19277565d96aa48b5e4f622a78b174, type: 3}
+  - {fileID: 21300000, guid: d5217f22cdb669744a91d1ed25a6d5b3, type: 3}
+  - {fileID: 21300000, guid: 8353ad377359a9b4c96f9baeb98d4364, type: 3}
+  - {fileID: 21300000, guid: 57a3e6e9101435d48b38ea518a18f273, type: 3}
+  attack:
+  - {fileID: 21300000, guid: 791de806bd7209243a21a601dc0e6bf3, type: 3}
+  - {fileID: 21300000, guid: dc9ab624289ae1f4e8b93a897c828cac, type: 3}
+  - {fileID: 21300000, guid: 174afbfb1924e2b4fb509bc3fc9a7778, type: 3}
+  - {fileID: 21300000, guid: 86d8041e3036eac4aa80faa6227669bb, type: 3}
+  - {fileID: 21300000, guid: 661b6d9c20a3e154cb0245036265572c, type: 3}
+  secondAttack: []
+  death: {fileID: 21300000, guid: c311386f0e839b24daaeff1afcbbac77, type: 3}
+  health: 100
+  speed: 3.35
+  walkFps: 7
+  damage: 33
+  attackTime: 0.86
+  reach: 1.1
+  staminaCost: 20
+  ranged: 1
+  bottle: 1

@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7875ba2f43a82894a9492a914d2288db, type: 3}
+  m_Name: Knight
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterData
+  title: "\u0420\u044B\u0446\u0430\u0440\u044C"
+  idle: {fileID: 21300000, guid: 75183c5ec25b5a64e827f7890be24564, type: 3}
+  walk:
+  - {fileID: 21300000, guid: 61f1fbd6b2a604e49a2b2159746b67dd, type: 3}
+  - {fileID: 21300000, guid: a72232062752b74478f27661b1493ee2, type: 3}
+  - {fileID: 21300000, guid: 2bd2aab224bbb194ab1a8dc908f7ae76, type: 3}
+  - {fileID: 21300000, guid: 41db0420dbe167b46897bef68bd6bf87, type: 3}
+  - {fileID: 21300000, guid: bf213f1ad0620ff4c891f893f842cdf1, type: 3}
+  - {fileID: 21300000, guid: d4dcde293fd120842986cae9e4b76eff, type: 3}
+  - {fileID: 21300000, guid: 35929f67e6304ab45bc77b26c275ccca, type: 3}
+  - {fileID: 21300000, guid: 34c32626a163a5a4b830107caf21e638, type: 3}
+  attack:
+  - {fileID: 21300000, guid: 5252fb9abe68e4f4184ca1ff9eb60a94, type: 3}
+  - {fileID: 21300000, guid: 33b66851960b6a840a79288dd3b8c4ae, type: 3}
+  - {fileID: 21300000, guid: fc5c9951090478045a5a1ecd33e6f97b, type: 3}
+  - {fileID: 21300000, guid: 466233111eb46fb488d52fdc87a5a00b, type: 3}
+  - {fileID: 21300000, guid: 8641dcff500a10f47a6e0f4be24eb332, type: 3}
+  secondAttack:
+  - {fileID: 21300000, guid: afd6ceb7b8187894a93174993903e22d, type: 3}
+  - {fileID: 21300000, guid: a6b81d8eb58a8e146897220eb29da50c, type: 3}
+  - {fileID: 21300000, guid: f4474ad0d070e6a448fd80e58e71dea7, type: 3}
+  - {fileID: 21300000, guid: 714f0dd6cdf2533478b1112906561010, type: 3}
+  - {fileID: 21300000, guid: d3d9a1f690ccc0346aa7389344df27e1, type: 3}
+  death: {fileID: 21300000, guid: 251010d77f6684244b9deaeaa21f64e1, type: 3}
+  health: 150
+  speed: 3.1
+  walkFps: 7.2
+  damage: 36
+  attackTime: 0.74
+  reach: 1.35
+  staminaCost: 23
+  ranged: 0
+  bottle: 0

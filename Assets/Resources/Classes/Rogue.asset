@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7875ba2f43a82894a9492a914d2288db, type: 3}
+  m_Name: Rogue
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterData
+  title: "\u0412\u043E\u0440"
+  idle: {fileID: 21300000, guid: aeb912e5f9bbea740b3d5eb2d35e25e1, type: 3}
+  walk:
+  - {fileID: 21300000, guid: 9d741512300d7a24dbc151e0d3681fdc, type: 3}
+  - {fileID: 21300000, guid: 6ddc91eb331907b448d755e8924f4d12, type: 3}
+  - {fileID: 21300000, guid: 4aff0a4d884bce045b819f4e04fcdcff, type: 3}
+  - {fileID: 21300000, guid: f9ac107283b66bb4a8c7535eea220ffb, type: 3}
+  - {fileID: 21300000, guid: 4ea37ba5a777b9a47b775b620f1e68e7, type: 3}
+  - {fileID: 21300000, guid: bb28423cf5e77074e83ce6817cc3621c, type: 3}
+  - {fileID: 21300000, guid: 803a298771af7ea4fbe059c8d7cd3196, type: 3}
+  - {fileID: 21300000, guid: e9b69dbdbafad6146a3b150ab89ee27d, type: 3}
+  attack:
+  - {fileID: 21300000, guid: f8a84a65f14fb804395d759c1f260b32, type: 3}
+  - {fileID: 21300000, guid: 58fa3eb9e3edbc04b9b1aca8394bdcd2, type: 3}
+  - {fileID: 21300000, guid: a2a0ff7879a34ac43a528fe362977273, type: 3}
+  - {fileID: 21300000, guid: 76bfdcfe62a4f8b4e9e25770ce5d0910, type: 3}
+  - {fileID: 21300000, guid: 4002cf3cde0a40f449cd269375ba0330, type: 3}
+  - {fileID: 21300000, guid: 8aeb8c72d79650f4cadc1d556fff957a, type: 3}
+  - {fileID: 21300000, guid: c093528b24844e346a110aa128bfb0d9, type: 3}
+  - {fileID: 21300000, guid: 4eeb9e80f7d737947a023997e3090bde, type: 3}
+  secondAttack: []
+  death: {fileID: 21300000, guid: 041b7142d0264d94abeead60a0cc34dc, type: 3}
+  health: 95
+  speed: 3.9
+  walkFps: 8.2
+  damage: 25
+  attackTime: 0.5
+  reach: 1
+  staminaCost: 15
+  ranged: 0
+  bottle: 0

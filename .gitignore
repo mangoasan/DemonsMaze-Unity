@@ -1,0 +1,46 @@
+# Unity-generated files and local editor state
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Bb]uild/
+/[Bb]uilds/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# IDE-generated files
+/.vs/
+/.idea/
+/.vscode/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.opendb
+*.VC.db
+
+# Generated builds and debug artifacts
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.pdb
+*.mdb
+*_BackUpThisFolder_ButDontShipItWithYourGame/
+*_BurstDebugInformation_DoNotShip/
+sysinfo.txt
+
+# Local credentials and operating system files
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+.DS_Store
+Thumbs.db
+Desktop.ini
