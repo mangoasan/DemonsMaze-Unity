@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7875ba2f43a82894a9492a914d2288db, type: 3}
+  m_Name: RogueHidden
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterData
+  title: Плут
+  idle: {fileID: 21300000, guid: 3d612dd18c93431baafd1b69e11ec572, type: 3}
+  walk:
+  - {fileID: 21300000, guid: c89f480a33664273872bfa130b20da5d, type: 3}
+  - {fileID: 21300000, guid: c4389b9d51794632aa680fc61d7fd285, type: 3}
+  - {fileID: 21300000, guid: 75ccbc7e7c124aaf87dff78c5db32223, type: 3}
+  - {fileID: 21300000, guid: 3abccc6b5d104a9581a164bce5cba057, type: 3}
+  - {fileID: 21300000, guid: 201cfdd38e174d6cb83884d9b1606e97, type: 3}
+  - {fileID: 21300000, guid: 48bf0f47363c4ecb9bd503666fc784f7, type: 3}
+  - {fileID: 21300000, guid: 59f7190a0b32427495af5253fe1c4170, type: 3}
+  - {fileID: 21300000, guid: dbc191d30ddb4f329af5945c62a515a8, type: 3}
+  attack:
+  - {fileID: 21300000, guid: 371dc17e959b426d93bbe30e6fded473, type: 3}
+  - {fileID: 21300000, guid: 1b9b0ee14e314e029e99d686b71e7111, type: 3}
+  - {fileID: 21300000, guid: 1159b32440b84b9aad2f13998623279a, type: 3}
+  - {fileID: 21300000, guid: d31a691a718b455d9e7526a1e642291d, type: 3}
+  secondAttack:
+  - {fileID: 21300000, guid: 0065115adccf48c1a9ca8008d9626687, type: 3}
+  - {fileID: 21300000, guid: afb2352de7214a1491f46822e3903749, type: 3}
+  - {fileID: 21300000, guid: c5d19b6bc44541e88654aa7dc08c747c, type: 3}
+  - {fileID: 21300000, guid: f538f24610ac4be98afbb3d003ed4b27, type: 3}
+  thirdAttack: []
+  magic: []
+  death: {fileID: 21300000, guid: 041b7142d0264d94abeead60a0cc34dc, type: 3}
+  health: 95
+  speed: 4
+  walkFps: 8
+  damage: 31
+  attackTime: 0.5
+  reach: 1.2
+  staminaCost: 20
+  ranged: 0
+  bottle: 0

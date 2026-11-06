@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7875ba2f43a82894a9492a914d2288db, type: 3}
+  m_Name: Spirit
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterData
+  title: Душа
+  idle: {fileID: 21300000, guid: f592b02346e442c4a67dc0bc7efc4766, type: 3}
+  walk:
+  - {fileID: 21300000, guid: a2d4ba2fd3bb4b4bbd7ef52917dfd3cb, type: 3}
+  - {fileID: 21300000, guid: e4b2a17167c544bab3407b371706e354, type: 3}
+  - {fileID: 21300000, guid: 7b770108c2b44dabbb7e7208fc96827e, type: 3}
+  - {fileID: 21300000, guid: 741603fd69174eb58902aa16466b1044, type: 3}
+  - {fileID: 21300000, guid: 4a43ed7b1fea45f8a1d18f56e703a1d2, type: 3}
+  - {fileID: 21300000, guid: ff522fddff724bdab31a6ecd828b2dbf, type: 3}
+  - {fileID: 21300000, guid: 8453a33216cc47f9934ae164374c2831, type: 3}
+  - {fileID: 21300000, guid: c761923ca6104fdcb98f336e1e5aa781, type: 3}
+  attack:
+  - {fileID: 21300000, guid: b80b8642053141568bc7fb5b4ea63a30, type: 3}
+  - {fileID: 21300000, guid: 942f549cf4d349b2938cc50b8a3d0a6a, type: 3}
+  - {fileID: 21300000, guid: 557775e392cb43499fb826b2ad873329, type: 3}
+  - {fileID: 21300000, guid: 31a5f3cb07584ef882992c006a816e03, type: 3}
+  - {fileID: 21300000, guid: c7ecac0d8a3a4528877a585678a9498f, type: 3}
+  secondAttack: []
+  thirdAttack: []
+  magic: []
+  death: {fileID: 21300000, guid: 2882c7c88f2b4524b58a32438a21239d, type: 3}
+  health: 86
+  speed: 3.0
+  walkFps: 8
+  damage: 36
+  attackTime: 1.04
+  reach: 1.32
+  staminaCost: 20
+  ranged: 0
+  bottle: 0

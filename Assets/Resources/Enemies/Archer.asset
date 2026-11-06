@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7875ba2f43a82894a9492a914d2288db, type: 3}
+  m_Name: Archer
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterData
+  title: Лучник
+  idle: {fileID: 21300000, guid: d74bb89d912e40a0b6afedeb20741e65, type: 3}
+  walk:
+  - {fileID: 21300000, guid: 7ad837430a1246658786cd36275b0bf5, type: 3}
+  - {fileID: 21300000, guid: 3b6ef180e6fe4ae4ae3fc722f4129fb7, type: 3}
+  - {fileID: 21300000, guid: a7b69722b8a64f78b51e1dc9e99767a8, type: 3}
+  - {fileID: 21300000, guid: 36374ac1e4844bd9bab535d894e6d1da, type: 3}
+  - {fileID: 21300000, guid: a39928320bdd4b9c97fda14ddb04842f, type: 3}
+  - {fileID: 21300000, guid: 53925410d55f4c48bad0c2a85b2fcefb, type: 3}
+  - {fileID: 21300000, guid: 122efc4da89d47d29e5a32289888c5b7, type: 3}
+  - {fileID: 21300000, guid: 74aa06b1c62f434c856cf8c8f8721d47, type: 3}
+  attack:
+  - {fileID: 21300000, guid: 495cd1f428184159991ec49728101929, type: 3}
+  - {fileID: 21300000, guid: caaa658192af4e3b89a8a080aee6e45b, type: 3}
+  - {fileID: 21300000, guid: 9bc9a0621ac2437482bc8c423ac4b79f, type: 3}
+  - {fileID: 21300000, guid: 69cc36a7011b4c1683c30d1f9b647763, type: 3}
+  secondAttack: []
+  thirdAttack: []
+  magic: []
+  death: {fileID: 21300000, guid: 1c3ca6924f7a4fd380d55ebcafa79466, type: 3}
+  health: 45
+  speed: 2.6
+  walkFps: 8
+  damage: 16
+  attackTime: 0.72
+  reach: 7.4
+  staminaCost: 20
+  ranged: 0
+  bottle: 0

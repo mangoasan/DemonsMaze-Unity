@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 145272664}
   - component: {fileID: 145272662}
   - component: {fileID: 145272663}
+  - component: {fileID: 145272665}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -196,6 +197,19 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 145272661}
   m_Enabled: 1
+--- !u!114 &145272665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145272661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b017fcf9b1c46deb4903fd20e32d25a, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Assembly-CSharp::MazeCamera
+  viewSize: 3.05
 --- !u!4 &145272664
 Transform:
   m_ObjectHideFlags: 0
@@ -222,6 +236,7 @@ GameObject:
   - component: {fileID: 1673729529}
   - component: {fileID: 1673729528}
   - component: {fileID: 1673729527}
+  - component: {fileID: 1673729530}
   m_Layer: 0
   m_Name: Game
   m_TagString: Untagged
@@ -245,9 +260,20 @@ MonoBehaviour:
   player: {fileID: 0}
   enemies: []
   actors: {fileID: 0}
-  classes: []
   gameCamera: {fileID: 145272662}
-  cameraSize: 2.5
+  citadel: 0
+--- !u!114 &1673729530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673729526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d01d68c66ec84fc8b83d8082cb6b184f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Assembly-CSharp::GameplayHud
 --- !u!114 &1673729528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -260,9 +286,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80268c8fe57a7474ab2908122ba21388, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MazeGenerator
-  cells: 23
+  cells: 16
   corridor: 5
-  wall: 3
+  wall: 9
   seed: 0
   tileSize: 0.5
   junctions: []

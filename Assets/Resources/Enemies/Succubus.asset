@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7875ba2f43a82894a9492a914d2288db, type: 3}
+  m_Name: Succubus
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterData
+  title: Суккуб
+  idle: {fileID: 21300000, guid: 16bb34539caf4b4b8e876ec34b434247, type: 3}
+  walk:
+  - {fileID: 21300000, guid: d326d5fdd82849f19c17b1673c24ef43, type: 3}
+  - {fileID: 21300000, guid: 41d5ab8f2f8e4a088e00c14680fb74e6, type: 3}
+  - {fileID: 21300000, guid: 8308b1488552435cb45ea09cc1392200, type: 3}
+  - {fileID: 21300000, guid: 441db8cacb4547a691e7c643b5b9f0b3, type: 3}
+  - {fileID: 21300000, guid: 1bbd904262b74f2c8140d289618bda16, type: 3}
+  - {fileID: 21300000, guid: af800be7cdea48159a589d9482c6917f, type: 3}
+  - {fileID: 21300000, guid: 5136b6c0a0af4ed6a112195cae55586e, type: 3}
+  - {fileID: 21300000, guid: 8121bac225734607881e77b02e9519dc, type: 3}
+  attack:
+  - {fileID: 21300000, guid: c43859bcb78744899e88edcb7099c88d, type: 3}
+  - {fileID: 21300000, guid: 71ad3fb570ec41779d1705636cb48d35, type: 3}
+  - {fileID: 21300000, guid: fd413b3ba2b84501befac5ed2f0d60a1, type: 3}
+  - {fileID: 21300000, guid: f3bbbd3db5654553b137532535cf002c, type: 3}
+  - {fileID: 21300000, guid: c2f89a626aa142a988c58743c4c173f3, type: 3}
+  secondAttack: []
+  thirdAttack: []
+  magic: []
+  dashTrail:
+  - {fileID: 21300000, guid: f58eb3e0d2c142239ff3857ba0e5c30b, type: 3}
+  - {fileID: 21300000, guid: 04dc9f2d4bca442ab3df227eab913066, type: 3}
+  - {fileID: 21300000, guid: b8765eee66b145c48c41024572ff0cd6, type: 3}
+  - {fileID: 21300000, guid: b450c3c3aa6746b29038f4fba44b5d0b, type: 3}
+  - {fileID: 21300000, guid: 56855e5b88e44283834401bf5a9580a6, type: 3}
+  death: {fileID: 21300000, guid: fab8abc5307748c09adf31fa59a56246, type: 3}
+  health: 94
+  speed: 3.15
+  walkFps: 8
+  damage: 24
+  attackTime: 0.73
+  reach: 1.21
+  staminaCost: 20
+  ranged: 0
+  bottle: 0

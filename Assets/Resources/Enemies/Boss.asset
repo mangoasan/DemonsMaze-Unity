@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7875ba2f43a82894a9492a914d2288db, type: 3}
+  m_Name: Boss
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterData
+  title: Лорд Ноктул
+  idle: {fileID: 21300000, guid: d1b469b0c7d6466c89971eb6b27a360d, type: 3}
+  walk:
+  - {fileID: 21300000, guid: 57af7e5b462941af8c1ec910549fec9a, type: 3}
+  - {fileID: 21300000, guid: fbf504f5da334dd79eecb5e896e76052, type: 3}
+  - {fileID: 21300000, guid: 259668de73a54ab98ccb13bb7048e085, type: 3}
+  - {fileID: 21300000, guid: 3ec328931db8415687ebe3d1623790ed, type: 3}
+  - {fileID: 21300000, guid: 37a71438971f41d9bf2f7b3b757f8d47, type: 3}
+  - {fileID: 21300000, guid: 4b1db8a27c1f46c491a358b453014f79, type: 3}
+  - {fileID: 21300000, guid: 82afaa32b30240888d1a4edcaefe2f06, type: 3}
+  - {fileID: 21300000, guid: 5a305c750f2f4fef9c654e706f13f898, type: 3}
+  attack:
+  - {fileID: 21300000, guid: eb78c3d9cb6c4abc9312cae77cd665a4, type: 3}
+  - {fileID: 21300000, guid: 134e774ba0a245c0801b68ecacc95b81, type: 3}
+  - {fileID: 21300000, guid: efd68ace2a344167a2009e11142083d9, type: 3}
+  secondAttack:
+  - {fileID: 21300000, guid: 320f6cc938c442cd93ba9ef301ade0c9, type: 3}
+  - {fileID: 21300000, guid: aada501cac474acc9fd580ab86d21297, type: 3}
+  - {fileID: 21300000, guid: ceaa53e9e36b4e30a2ae91cbcc364b7a, type: 3}
+  - {fileID: 21300000, guid: 688e06be698d4c41a7d5f2d195f47231, type: 3}
+  - {fileID: 21300000, guid: 5974eacae3024cf68780103b373be12b, type: 3}
+  thirdAttack:
+  - {fileID: 21300000, guid: 3eb4091ff5f84f26a21b3528622247d1, type: 3}
+  - {fileID: 21300000, guid: 8704315667c346c786fe45c7012aab1b, type: 3}
+  - {fileID: 21300000, guid: edef93bf0e084aaaa235842d72697552, type: 3}
+  - {fileID: 21300000, guid: e1a70eb0d0154370b1a37db126f645b4, type: 3}
+  - {fileID: 21300000, guid: 61d1cb83452e4df48ffc3d97375cf425, type: 3}
+  magic:
+  - {fileID: 21300000, guid: 7fb8d5ea670f44afb080c695ce668b7a, type: 3}
+  - {fileID: 21300000, guid: e527ef8ba779418d91c7539de06f469e, type: 3}
+  - {fileID: 21300000, guid: 92bac31bcd024ccfa87c68a65dafd078, type: 3}
+  - {fileID: 21300000, guid: e6bd6630379f48a287dbedc5378a5d6d, type: 3}
+  death: {fileID: 21300000, guid: 895d9b7e66dc41f7b7e47f7ce5721596, type: 3}
+  health: 570
+  speed: 2.5
+  walkFps: 8
+  damage: 34
+  attackTime: 1.05
+  reach: 1.65
+  staminaCost: 20
+  ranged: 0
+  bottle: 0

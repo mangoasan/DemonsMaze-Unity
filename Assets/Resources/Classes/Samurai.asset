@@ -31,11 +31,11 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 08a47a1966bcce6429fa9467986f6e8a, type: 3}
   secondAttack: []
   death: {fileID: 21300000, guid: af015a0870fa7124c8f201ee0f504bbd, type: 3}
-  health: 115
+  health: 72
   speed: 3.6
   walkFps: 8
   damage: 30
-  attackTime: 0.58
+  attackTime: 0.36
   reach: 1.6
   staminaCost: 20
   ranged: 0

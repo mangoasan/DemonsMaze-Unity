@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7875ba2f43a82894a9492a914d2288db, type: 3}
+  m_Name: Spearman
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterData
+  title: Копейщик
+  idle: {fileID: 21300000, guid: db93434e49714752bd439a93b842c06c, type: 3}
+  walk:
+  - {fileID: 21300000, guid: 965d6032d0c342b3ad37ca29d67bace6, type: 3}
+  - {fileID: 21300000, guid: 2e1b959f1f1943a4af1465fbd9cf0462, type: 3}
+  - {fileID: 21300000, guid: 302ee2f949e248f2bb500ba17ef6af7c, type: 3}
+  - {fileID: 21300000, guid: 149d1702738841f9bef4ec2abd5543ac, type: 3}
+  - {fileID: 21300000, guid: b65875669cbf4cc4a5017089743efeff, type: 3}
+  - {fileID: 21300000, guid: 371f98a8d7594cfb94a81fb4a2c7797d, type: 3}
+  - {fileID: 21300000, guid: 185a9457f8e243a7b5b7424981bdf7a7, type: 3}
+  - {fileID: 21300000, guid: 0ab52e350e2e45ed9488afa7f48ed7ff, type: 3}
+  attack:
+  - {fileID: 21300000, guid: b7aff6e9440d431db560cc70b5d2bd1a, type: 3}
+  - {fileID: 21300000, guid: fcad4b97f7144d40af546fa3db04c5eb, type: 3}
+  - {fileID: 21300000, guid: 45e3131d392143158088c5d1d4814f6e, type: 3}
+  - {fileID: 21300000, guid: bcf3e5433519490c8e2c90af60552f1e, type: 3}
+  - {fileID: 21300000, guid: 9baede53c2e54ea4ae47b88c738f031f, type: 3}
+  secondAttack: []
+  thirdAttack: []
+  magic: []
+  death: {fileID: 21300000, guid: 128c0a6866c34795a4ec8ac4572b0482, type: 3}
+  health: 76
+  speed: 2.8
+  walkFps: 8
+  damage: 23
+  attackTime: 0.69
+  reach: 1.76
+  staminaCost: 20
+  ranged: 0
+  bottle: 0

@@ -23,15 +23,23 @@ MonoBehaviour:
   - {fileID: 21300000, guid: dfeefe2e679fc8e41bb128d537e45736, type: 3}
   - {fileID: 21300000, guid: 0d4db6bcef7b034439066b6ab1096008, type: 3}
   - {fileID: 21300000, guid: a7441d87a46c07d4684516634f6d3830, type: 3}
-  attack: []
-  secondAttack: []
+  attack:
+  - {fileID: 21300000, guid: 606c962426bf46f18960cc75c4eaa8e5, type: 3}
+  - {fileID: 21300000, guid: 57646291e1774152908dd583e829fa1b, type: 3}
+  - {fileID: 21300000, guid: 497b0aa01ce04d9a8b4939f88fed9832, type: 3}
+  - {fileID: 21300000, guid: 4a69421cab3243329dca3de63e7c3034, type: 3}
+  secondAttack:
+  - {fileID: 21300000, guid: 606c962426bf46f18960cc75c4eaa8e5, type: 3}
+  - {fileID: 21300000, guid: 8bcd421917ea4c72ada99c56ea58c069, type: 3}
+  - {fileID: 21300000, guid: 5dd90dc4dcd2493eabb8a682a9e4e8c2, type: 3}
+  - {fileID: 21300000, guid: 76167aa39c4b401590e3ada463f1bd6c, type: 3}
   death: {fileID: 21300000, guid: 4c419761f4eef0947966a906ef60d5de, type: 3}
   health: 65
   speed: 1.75
   walkFps: 5.8
   damage: 19
-  attackTime: 0.7
-  reach: 0.9
+  attackTime: 0.52
+  reach: 1.05
   staminaCost: 20
   ranged: 0
   bottle: 0

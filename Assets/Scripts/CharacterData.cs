@@ -8,6 +8,9 @@ public class CharacterData : ScriptableObject
     public Sprite[] walk;
     public Sprite[] attack;
     public Sprite[] secondAttack;
+    public Sprite[] thirdAttack;
+    public Sprite[] magic;
+    public Sprite[] dashTrail;
     public Sprite death;
     public int health = 100;
     public float speed = 3.4f;
@@ -18,4 +21,13 @@ public class CharacterData : ScriptableObject
     public float staminaCost = 20;
     public bool ranged;
     public bool bottle;
+
+    public static CharacterData[] LoadPlayerClasses()
+    {
+        string[] names = { "Knight", "Alchemist", "Samurai", "Mage", "Rogue" };
+        CharacterData[] classes = new CharacterData[names.Length];
+        for (int i = 0; i < names.Length; i++)
+            classes[i] = Resources.Load<CharacterData>("Classes/" + names[i]);
+        return classes;
+    }
 }

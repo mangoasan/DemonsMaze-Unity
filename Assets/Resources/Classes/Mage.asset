@@ -31,7 +31,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 28aab5a4e001fef4088743ca8d718c4b, type: 3}
   secondAttack: []
   death: {fileID: 21300000, guid: cd01d3b448e869e40b3ad704d4cd80ce, type: 3}
-  health: 85
+  health: 57
   speed: 3.4
   walkFps: 6.8
   damage: 31

@@ -35,4 +35,10 @@ public class CharacterAnimation
     {
         walkPhase = 0;
     }
+
+    public void Attack(Sprite[] frames, float progress)
+    {
+        int index = Mathf.Min(frames.Length - 1, (int)(Mathf.Clamp01(progress) * frames.Length));
+        view.sprite = index >= 0 ? frames[index] : data.idle;
+    }
 }

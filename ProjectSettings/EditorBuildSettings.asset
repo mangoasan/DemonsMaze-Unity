@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 1f5421efea404027b814cf2062b07c8b
+  - enabled: 1
     path: Assets/Scenes/DemonsMaze.unity
     guid: a471a04eb7ad718429378dc648ef11bc
+  - enabled: 1
+    path: Assets/Scenes/Citadel.unity
+    guid: df38932415bf4a0cab7ec413ca2f3b2d
+  - enabled: 1
+    path: Assets/Scenes/Result.unity
+    guid: 8bb7ffedb3fb48c29fdc954bb2dbae56
   m_configObjects: {}

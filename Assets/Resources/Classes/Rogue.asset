@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7875ba2f43a82894a9492a914d2288db, type: 3}
   m_Name: Rogue
   m_EditorClassIdentifier: Assembly-CSharp::CharacterData
-  title: "\u0412\u043E\u0440"
+  title: Плут
   idle: {fileID: 21300000, guid: aeb912e5f9bbea740b3d5eb2d35e25e1, type: 3}
   walk:
   - {fileID: 21300000, guid: 9d741512300d7a24dbc151e0d3681fdc, type: 3}
@@ -34,7 +34,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 4eeb9e80f7d737947a023997e3090bde, type: 3}
   secondAttack: []
   death: {fileID: 21300000, guid: 041b7142d0264d94abeead60a0cc34dc, type: 3}
-  health: 95
+  health: 64
   speed: 3.9
   walkFps: 8.2
   damage: 25
